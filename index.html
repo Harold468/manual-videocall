@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>WebRTC</title>
+</head>
+<body>
+
+    <div id="video-container">
+        <video id="user-1" playsInline="true" autoplay="true">
+
+        </video>
+
+        <video id="user-2" playsInline="true" autoplay="true">
+
+        </video>
+
+    </div>
+
+    <div id="inputs-section">
+
+        <button id="create-offer">Create offer</button>
+        <textarea id="offer-sdp"></textarea>
+
+        <button id="create-answer">Create Answer</button>
+        <textarea id="answer-sdp"></textarea>
+
+        <button id="add-answer">Answer Call</button>
+        
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
